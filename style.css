@@ -1,6 +1,7 @@
 body {
   width: 100%vh;
 }
+
 .teclado {
   display: flex;
   flex-direction: column;
@@ -13,19 +14,41 @@ body {
   background-color: aqua;
   user-select: none;
 }
+
+.funcao {
+  width: 5%;
+  height: 5%;
+  padding: 2%;
+  background-color: aqua;
+  user-select: none;
+}
+
 .tecla:hover {
   background-color: rgba(0, 255, 255, 0.514);
 }
+
+.funcao:hover {
+  background-color: rgba(0, 255, 255, 0.514);
+}
+
+.fileira-numerica {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
 .primeira-fileira {
   display: flex;
   flex-direction: row;
   text-align: center;
 }
+
 .segunda-fileira {
   display: flex;
   flex-direction: row;
   text-align: center;
 }
+
 .terceira-fileira {
   display: flex;
   flex-direction: row;
